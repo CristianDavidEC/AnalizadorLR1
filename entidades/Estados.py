@@ -5,6 +5,7 @@ class Estados:
         self._nombre = nombre
         self._trancision = transicion
         self._producciones = []
+        
 
     def getNombre(self):
         return self._nombre

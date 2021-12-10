@@ -14,7 +14,7 @@ class FuncionesGenerales:
             for noTerminal in data["noTerminales"]:
                 gram.addNoTerminal(noTerminal)
 
-            gram.setSimboloInicial(data["simboloInicial"])
+            gram.setInicial(data["simboloInicial"])
 
             for produccion in data["producciones"]:
                 gram.addProduccion(produccion)

@@ -12,11 +12,11 @@
     ],
     "simboloInicial": "S",
     "producciones": [
-        "S::BC",
-        "S::DA",
-        "B::b",
-        "C::AA",
-        "A::a",
-        "D::ba"
+        "S>BC",
+        "S>DA",
+        "B>b",
+        "C>AA",
+        "A>a",
+        "D>ba"
     ]
 }

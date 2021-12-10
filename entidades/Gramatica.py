@@ -6,7 +6,7 @@ class Gramatica:
         self._simboloInicial = ""
         self._producciones = []
 
-    def getSimboloInicial(self):
+    def getInicial(self):
         return self._simboloInicial
     
     def getTerminales(self):
@@ -18,7 +18,7 @@ class Gramatica:
     def getProducciones(self):
         return self._producciones
 
-    def setSimboloInicial(self, simboloInicial):
+    def setInicial(self, simboloInicial):
         self._simboloInicial = simboloInicial
 
     def addTerminal(self, terminal):
@@ -27,8 +27,11 @@ class Gramatica:
     def addNoTerminal(self, noTerminal):
         self._noTerminales.add(noTerminal)
 
+    def setProducciones(self, producciones):
+        self._producciones= producciones
+    
     def addProduccion(self, produccion):
-        self._producciones.append(produccion)
+        self._producciones.append(produccion);
 
     def imprimir(self):
         print('Terminales: ', self._terminales)

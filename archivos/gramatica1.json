@@ -9,8 +9,8 @@
     ],
     "simboloInicial": "S",
     "producciones": [
-        "S::CC",
-        "C::aC",
-        "C::d"
+        "S>CC",
+        "C>aC",
+        "C>d"
     ]
 }
